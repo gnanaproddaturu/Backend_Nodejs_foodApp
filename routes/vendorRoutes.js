@@ -7,7 +7,7 @@ import { vendorRegister , vendorLogin , getAllvendors, getVendorById } from '../
 import express from "express";
 
 const router = express.Router();
-router.post("/regoster",vendorRegister)
+router.post("/register",vendorRegister)
 router.post("/login" , vendorLogin)
 router.get("/all-vendors",getAllvendors)
 router.get("/single-vendor/:id",getVendorById )
